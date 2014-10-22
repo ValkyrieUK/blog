@@ -21,7 +21,7 @@ config = {
                 password : process.env.GHOST_DB_PWD,
                 database : process.env.GHOST_DB_NAME,
                 charset  : 'utf8'
-            }
+            },
             debug: false
         },
 
