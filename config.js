@@ -16,10 +16,10 @@ config = {
             client: 'pg',
             connection: {
                 host     : process.env.GHOST_DB_HOST,
-                port     :  process.env.GHOST_DB_PORT,
                 user     : process.env.GHOST_DB_USER,
-                password : process.env.GHOST_DB_PWD,
                 database : process.env.GHOST_DB_NAME,
+                password : process.env.GHOST_DB_PWD,
+                port     : process.env.GHOST_DB_PORT,
                 charset  : 'utf8'
             },
             debug: false
